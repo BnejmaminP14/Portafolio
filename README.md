@@ -1,31 +1,11 @@
-## **Predicción del Nivel de PIB utilizando Datos del Banco Mundial**
+# Portafolio de Análisis de Datos
 
-El objetivo de este proyecto es predecir el nivel de PIB de distintos países a partir de indicadores económicos, sociales y demográficos obtenidos del Banco Mundial.
+Este repositorio contiene el desarrollo de un proyecto de análisis de datos
+utilizando información obtenida desde el Banco Mundial.
 
-El trabajo debe realizarse en tres etapas principales:
+El objetivo del proyecto es aplicar un flujo de trabajo estructurado que incluya
+la extracción de datos, organización de la información y control de versiones
+mediante GitHub.
 
-- Análisis descriptivo e imputación de datos
-
-- Reducción de dimensionalidad con PCA
-
-- Modelación mediante algoritmos de clasificación
-- ### **Etapa 1: Análisis Descriptivo e Imputación de Datos**
-
-**Revisión general del dataset**
-
-- Identificar el número de países, años y variables disponibles.
-
-- Número total de observaciones
-
-- Porcentaje de datos faltantes por variable: En caso que la variable cuente con menos de un 15% de datos NA se recomienda imputar. En caso contrario, eliminar variable.
-
-- Identificación de outliers relevantes
-
-
-**Indicaciones**:
-
-- Generar una tabla de estadísticas descriptivas: media, mediana, desviación estándar, máximo, mínimo.
-
-- Mostrar la distribución del PIB (histograma o boxplot), ya que es la variable objetivo.
-
-- Mapa con la distribución del PIB
+El proyecto se desarrolla en distintas etapas, cada una trabajada en su propia rama,
+las cuales se integran a la rama principal (main).
