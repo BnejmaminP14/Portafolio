@@ -1,11 +1,9 @@
-# Portafolio de Análisis de Datos
+### **Etapa 2: Reducción de Dimensionalidad con PCA**
 
-Este repositorio contiene el desarrollo de un proyecto de análisis de datos
-utilizando información obtenida desde el Banco Mundial.
+El dataset contiene múltiples variables macroeconómicas, demográficas y sociales, por lo que se aplicará Análisis de Componentes Principales (`PCA`) con el objetivo de reducir la dimensionalidad y capturar los principales patrones subyacentes en los datos.
 
-El objetivo del proyecto es aplicar un flujo de trabajo estructurado que incluya
-la extracción de datos, organización de la información y control de versiones
-mediante GitHub.
-
-El proyecto se desarrolla en distintas etapas, cada una trabajada en su propia rama,
-las cuales se integran a la rama principal (main).
+- Seleccionar únicamente variables numéricas y estandarizarlas previamente.
+- Aplicar `PCA` y analizar la varianza explicada por cada componente.
+- Elegir el número de componentes necesarias para explicar entre 70% y 90% de la varianza total, justificando brevemente dicha elección.
+- Construir un nuevo DataFrame que contenga las componentes seleccionadas, el cual será utilizado como insumo para los modelos de clasificación posteriores.
+- Documentar de forma clara los pasos realizados y las decisiones metodológicas adoptadas.
